@@ -1340,7 +1340,7 @@ public class ConnectedPlayer implements MinecraftConnectionAssociation, Player, 
 
   @Override
   public HandshakeIntent getHandshakeIntent() {
-    return null;
+    return handshakeIntent;
   }
 
   private final class ConnectionRequestBuilderImpl implements ConnectionRequestBuilder {
